@@ -1,14 +1,249 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <title>Full-Stack | Pós-Graduação</title>
 </head>
-<body>
-  
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark border-bottom border-secondary fixed-top">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start w-25 bg-dark text-white border-start border-secondary" tabindex="-1"
+          id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-star flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#grid">GRID</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menus">MENUS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#containers">CONTAINERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formularios">FORMULARIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tabela">TABELA</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="bg-dark min-vh-100 text-light d-flex flex-column" style="padding-top: 100px;">
+
+    <section class="border-top border-bottom border-secondary shadow w-100 p-3 mx-auto mb-5 text-center">
+      <h1> Pós-graduação | FULL-STACK | BOOTSTRAP</h1>
+    </section>
+
+    <article id="grid" class="border border-secondary rounded-4 shadow w-75 p-3 mx-auto mb-5">
+      <header class="text-center">
+        <h2>SISTEMA DE GRID</h2>
+      </header>
+      <section>
+        <div class="row">
+          <div class="col-lg-3">
+            <img class="img-fluid p-3"
+              src="https://images.unsplash.com/photo-1761658644899-d1754c05c4d5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+              alt="imagem teste">
+          </div>
+          <div class="col-lg-3">
+            <img class="img-fluid p-3"
+              src="https://images.unsplash.com/photo-1691566766210-b6a07729e60a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+              alt="imagem teste">
+          </div>
+          <div class="col-lg-3">
+            <img class="img-fluid p-3"
+              src="https://images.unsplash.com/photo-1667364974570-bd6897efa888?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+              alt="imagem teste">
+          </div>
+          <div class="col-lg-3">
+            <img class="img-fluid p-3"
+              src="https://plus.unsplash.com/premium_photo-1673014201324-54bab699c3b4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+              alt="imagem teste">
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <article id="menus" class="border border-secondary rounded-4 shadow w-75 p-3 mx-auto mb-5">
+      <header class="text-center">
+        <h2>MENUS</h2>
+        <section>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu bg-dark text-white">
+                      <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </header>
+    </article>
+
+    <article id="containers" class="border border-secondary rounded-4 shadow w-75 p-3 mx-auto mb-5">
+      <header class="text-center">
+        <h2>CONTAINERS</h2>
+      </header>
+      <section class="p-2 d-grid gap-2">
+        <div class="container-fluid border border-secondary p-2">
+          <header>
+            <h3>CONTAINER FLUID</h3>
+          </header>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, quae rem! Ad molestias omnis odit
+          cupiditate blanditiis culpa minima, earum voluptatibus delectus eum accusamus, temporibus tenetur quia fugit,
+          aliquam nesciunt?
+          Labore, numquam eveniet assumenda quidem reprehenderit soluta voluptatum ratione excepturi perferendis id odio
+          molestiae vero ex doloribus odit sint repellat quasi nobis dolores eaque, quae facere illo expedita atque.
+          Suscipit.
+        </div>
+      </section>
+    </article>
+
+    <article id="formularios" class="border border-secondary rounded-4 shadow w-75 p-3 mx-auto mb-5">
+      <header class="text-center">
+        <h2>FORMULARIOS</h2>
+      </header>
+      <section class="p-2">
+        <form merthod="POST" enctype="multipart/form-data">
+          <div class="row gy-3">
+            <div class="col-lg-6">
+              <h5>Nome</h5>
+              <input 
+                type="text" 
+                class="form-control" 
+                name="nome" 
+                value="" 
+                placeholder="Nome" 
+                autocomplete="off"
+                required
+              >
+            </div>
+            <div class="col-lg-6">
+              <h5>E-mail</h5>
+              <input 
+                type="email" 
+                class="form-control" 
+                name="email" 
+                value="" 
+                placeholder="E-mail" 
+                autocomplete="off"
+                required
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 mt-4 text-end">
+              <button 
+                type="submit" 
+                class="btn btn-primary"
+              >
+                Salvar
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </article>
+
+    <article id="tabela" class="border border-secondary rounded-4 shadow w-75 p-3 mx-auto mb-5">
+      <header class="text-center">
+        <h2>TABELA</h2>
+      </header>
+      <section class="p-2">
+        <div class="table-responsive">
+          <table class="table table-dark table-striped table-hover">
+            <thead>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Idade</th>
+              <th>Profissão</th>              
+            </thead>
+            <tbody>
+              <tr>
+                <td>Levi Alves</td>
+                <td>levialves@gmail.com</td>
+                <td>29</td>
+                <td>Programador</td>
+              </tr>
+              <tr>
+                <td>Ayla Mendes</td>
+                <td>aylamendes@gmail.com</td>
+                <td>20</td>
+                <td>Desing</td>
+              </tr>
+              <tr>
+                <td>Jader Santos</td>
+                <td>jadersantos@gmail.com</td>
+                <td>25</td>
+                <td>Bombeiro</td>
+              </tr>
+              <tr>
+                <td>Caio Silva</td>
+                <td>caiosilva@gmail.com</td>
+                <td>25</td>
+                <td>Professor</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </article>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
